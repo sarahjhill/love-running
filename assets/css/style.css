@@ -1,0 +1,21 @@
+/*Asterisk styles to overide default styles*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Header*/
+header {
+    background-color: red;
+}
+
+/*Main Content*/
+main {
+    background-color: orange;
+}
+
+/*Footer*/
+footer {
+    background-color: yellow;
+}
