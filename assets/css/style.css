@@ -1,8 +1,27 @@
+/*Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family= Lato:wght@300&family=Oswald:wght@200..700&display=swap';)
+
+// <weight>: Use a value from 200 to 700
+// <uniquifier>: Use a unique and descriptive class name
+
 /*Asterisk styles to overide default styles*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+/*General Styles*/
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lato', sans-serif;
+}
+
+/*General Styles*/
+body {
+    color: #3a3a3a;
 }
 
 /*Header*/
@@ -13,6 +32,8 @@ header {
 /*Main Content*/
 main {
     background-color: orange;
+    /*Make the main content take up the remaining space in the viewport*/
+    flex: 1 0 auto;
 }
 
 /*Footer*/
