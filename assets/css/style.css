@@ -49,10 +49,19 @@ main {
 }
 
 /*Footer*/
-footer {
-    background-color: yellow;
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
 }
 
+#social-networks li {
+    font-size: 160%;
+    padding: 5%;
+    color: #3a3a3a; 
+}
 /*header Navigation*/
 #menu {   
     font-size: 110%;
@@ -126,5 +135,12 @@ nav {
     /*main Cobtent*/
     main {
         margin-top: 79px;
+    }
+}
+
+/*Laptops and desktops (992 px and up)*/
+@media screen and (min-width: 992px) {
+    #menu:hover {
+        border-bottom: 1px solid #3a3a3a;
     }
 }
