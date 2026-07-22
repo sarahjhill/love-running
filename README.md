@@ -18,6 +18,15 @@ A button should appear to click: _Open Preview_ or _Open Browser_.
 
 In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
 
+## Deployment
+
+This project is deployed with GitHub Pages using a GitHub Actions workflow.
+
+1. Push changes to the `main` branch.
+2. Open the repository on GitHub and go to the Actions tab.
+3. Run the `Deploy to GitHub Pages` workflow, or wait for it to run automatically after a push.
+4. In the repository settings, make sure Pages is set to use GitHub Actions as the source.
+
 To log into the Heroku toolbelt CLI:
 
 1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
